@@ -1,4 +1,4 @@
-class CreateCkImagesTable < ActiveRecord::Migration[5.0]
+class CreateCkImagesTable < ActiveRecord::Migration[6.1]
   def change
     create_table :ck_images do |t|
       t.string :ck_image
