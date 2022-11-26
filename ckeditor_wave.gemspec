@@ -22,6 +22,6 @@ Gem::Specification.new do |spec|
   spec.files = Dir[
     '{app,config,db,lib}/**/*', 'LICENSE', 'README.md'
   ]
-  spec.add_dependency 'rails', '~> 6.1', '>= 6.1.7'
+  spec.add_dependency 'rails', '>= 5.0', '~> 7.0.4'
   spec.add_dependency 'carrierwave', '~> 2.2', '>= 2.2.3'
 end
